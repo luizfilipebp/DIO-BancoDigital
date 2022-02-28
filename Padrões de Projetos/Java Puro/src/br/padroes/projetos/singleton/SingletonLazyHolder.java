@@ -1,4 +1,4 @@
-package br.padroes.projetos;
+package br.padroes.projetos.singleton;
 
 /**
  * Singleton "Lazy Holder"
