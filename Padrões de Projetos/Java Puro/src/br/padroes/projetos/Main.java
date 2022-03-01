@@ -1,5 +1,6 @@
 package br.padroes.projetos;
 
+import br.padroes.projetos.facade.Facade;
 import br.padroes.projetos.singleton.SingletonEager;
 import br.padroes.projetos.singleton.SingletonLazy;
 import br.padroes.projetos.singleton.SingletonLazyHolder;
@@ -36,5 +37,9 @@ public class Main {
         robo.mover();
         robo.setComportamento(normal);
         robo.mover();
+
+        // Facade
+        Facade facade = new Facade();
+        facade.mirgrarCliente("umnome","123321");
     }
 }
